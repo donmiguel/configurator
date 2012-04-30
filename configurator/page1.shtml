@@ -1,0 +1,49 @@
+   <div class="HRadioList" id="Div_skitype">
+
+			<div class="HRadioListQ" id="Div_skitypeQ"
+			>
+			Für welchen Typ Ski interessierst du dich am meisten? 
+			</div>
+
+			<div class="HRadioListA" id="Div_skitypeA"> 
+			<table border="0" style="width: auto;">
+			<tr>
+
+			 
+			<td class="HRadioListAB"> 
+			 
+			<input id="id_skitype1" name="skitype" value="1" type="radio"> 
+			 
+			</td> <td class="HRadioListAL"> <label for="id_skitype1"> Touren-Ski </label> </td>
+			 </tr> <tr> 
+			 
+			<td class="HRadioListAB"> 
+			 
+			<input id="id_skitype2" name="skitype" value="2" type="radio"> 
+			 
+			</td> <td class="HRadioListAL"> <label for="id_skitype2"> Freeride-Ski (Tiefschnee-Ski) </label> </td>
+			 </tr> <tr> 
+			 
+			<td class="HRadioListAB"> 
+			 
+			<input id="id_skitype3" name="skitype" value="3" type="radio"> 
+			 
+			</td> <td class="HRadioListAL"> <label for="id_skitype3"> Race-Ski für die Piste </label> </td>
+			 </tr> <tr> 
+			 
+			<td class="HRadioListAB"> 
+			 
+			<input id="id_skitype4" name="skitype" value="4" type="radio"> 
+			 
+			</td> <td class="HRadioListAL"> <label for="id_skitype4"> All Mountain (für wechselndes Einsatzgebiet) </label> </td>
+			 </tr> <tr> 
+
+				
+
+			 
+
+			</tr>
+			</table>
+			</div>
+        	</div>
+        	

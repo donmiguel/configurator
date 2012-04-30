@@ -1,0 +1,207 @@
+<?php set_include_path($_SERVER['DOCUMENT_ROOT']); ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<title>Konfigurator</title>
+
+	<link rel="stylesheet" href="tabs.css" type="text/css" media="screen, projection"/>
+
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.7.custom.min.js"></script>
+    <script type="text/javascript">
+		$(function() {
+			var $nbrOfTabs = new Array(3,2,1);
+			var $tabs = $('#tabs').tabs();
+			
+			$(".ui-tabs-panel").each(function(i){
+	
+			  var totalSize = $(".ui-tabs-panel").size() - 1;
+	
+			  if (i != totalSize) {
+			      next = i + 2;
+		   		  $(this).append("<a href='#' class='next-tab mover' rel='" + next + "'>Weiter &#187;</a>");
+			  }
+	  
+			  if (i != 0) {
+			      prev = i;
+		   		  $(this).append("<a href='#' class='prev-tab mover' rel='" + prev + "'>&#171; Zurück</a>");
+			  }
+			});
+			
+			$('.prev-tab').click(function() { 
+		           $tabs.tabs('select', $(this).attr("rel"));
+		           return false;
+		       });
+			   
+			$('.next-tab').click(function() { 
+				   var selected = $tabs.tabs('option', 'selected');
+				   $nbrOfTabs.pop();
+				   $tabs.tabs( "option", "disabled", $nbrOfTabs);
+				   
+		           $tabs.tabs('select', $(this).attr("rel"));
+		           return false;
+		       });
+			   
+			 $tabs.tabs( "option", "disabled", $nbrOfTabs);
+		});
+    </script>
+
+</head>
+
+<body>
+
+	<div id="page-wrap">
+		
+		<div id="tabs">
+		
+    		<ul>
+        		<li><a href="#fragment-1">Page 1</a></li>
+        		<li><a href="#fragment-2">Page 2</a></li>
+        		<li><a href="#fragment-3">Page 3</a></li>
+        		<li><a href="#fragment-4">Page 4</a></li>
+    	   </ul>
+	
+        	<div id="fragment-1" class="ui-tabs-panel">
+				<!--#include virtual="page1.shtml" -->
+        	</div>
+			
+        	<div id="fragment-2" class="ui-tabs-panel ui-tabs-hide">
+                    <div class="HRadioList" id="Div_tour">
+
+				<div class="HRadioListQ" id="Div_tourQ">
+				Welcher Touren-Ski ist für dich interessanter? 
+				</div>
+
+				<div class="HRadioListA" id="Div_tourA"> 
+				<table border="0" style="width: auto;">
+				<tr>
+
+				 
+				<td class="HRadioListAB"> 
+				 
+				<input id="id_tour1" name="tour" value="1" type="radio"> 
+				 
+				</td> <td class="HRadioListAL"> <label for="id_tour1"> TOUR </label> </td>
+
+				 
+				<td class="HRadioListAB"> 
+				 
+				<input id="id_tour2" name="tour" value="2" type="radio"> 
+				 
+				</td> <td class="HRadioListAL"> <label for="id_tour2"> TOUR-EXTREME </label> </td>
+				</tr>
+				</table>
+				</div>
+
+
+				</div>
+
+
+
+
+				 
+				<div class="HRadioList" id="Div_buytour">
+
+				<div class="HRadioListQ" id="Div_buytourQ"
+				>
+				Würdest du diesen Ski auch kaufen? 
+				</div>
+
+				<div class="HRadioListA" id="Div_buytourA"> 
+				<table border="0" style="width: auto;">
+				<tr>
+				 <td class="HRadioListALL">ja, sicher</td> 
+				 
+				<td class="HRadioListAB"> 
+				 
+				<input id="id_buytour1" name="buytour" value="1" type="radio"> 
+				 
+				</td> <td class="HRadioListAL"> <label for="id_buytour1"> 1 </label> </td>
+
+				 
+				<td class="HRadioListAB"> 
+				 
+				<input id="id_buytour2" name="buytour" value="2" type="radio"> 
+				 
+				</td> <td class="HRadioListAL"> <label for="id_buytour2"> 2 </label> </td>
+
+				 
+				<td class="HRadioListAB"> 
+				 
+				<input id="id_buytour3" name="buytour" value="3" type="radio"> 
+				 
+				</td> <td class="HRadioListAL"> <label for="id_buytour3"> 3 </label> </td>
+
+				 
+				<td class="HRadioListAB"> 
+				 
+				<input id="id_buytour4" name="buytour" value="4" type="radio"> 
+				 
+				</td> <td class="HRadioListAL"> <label for="id_buytour4"> 4 </label> </td>
+
+				 
+				<td class="HRadioListAB"> 
+				 
+				<input id="id_buytour5" name="buytour" value="5" type="radio"> 
+				 
+				</td> <td class="HRadioListAL"> <label for="id_buytour5"> 5 </label> </td>
+
+				 
+				<td class="HRadioListAB"> 
+				 
+				<input id="id_buytour6" name="buytour" value="6" type="radio"> 
+				 
+				</td> <td class="HRadioListAL"> <label for="id_buytour6"> 6 </label> </td>
+
+				 
+				<td class="HRadioListAB"> 
+				 
+				<input id="id_buytour7" name="buytour" value="7" type="radio"> 
+				 
+				</td> <td class="HRadioListAL"> <label for="id_buytour7"> 7 </label> </td>
+
+
+				 <td class="HRadioListARL">nein, sicher nicht</td>     
+				</tr>
+				</table>
+				</div>
+				</div>
+
+				<div class="HTextField" id="Div_whynottour">
+
+
+
+				<div class="HTextFieldQ" id="Div_whynottourQ"
+				>
+				Falls "eher nicht", weshalb ist der Ski für dich nicht so interessant?  </div>
+
+
+				<textarea class="HTextFieldA" name="whynottour"
+				 cols="80" 
+				 rows="6" ></textarea>
+
+
+
+
+				</div>
+            </div>
+            
+        	<div id="fragment-3" class="ui-tabs-panel ui-tabs-hide">
+            		<p>ante. Mauris Vestibulum est. fames egestas quam, leo. amet tristique sit libero egestas. ultricies mi turpis senectus Pellentesque habitant eu ac morbi netus eget, Aenean malesuada vitae, semper. eleifend et feugiat vitae amet, placerat Donec et tortor ultricies tempor quam sit </p>
+            </div>
+        
+        	<div id="fragment-4" class="ui-tabs-panel ui-tabs-hide">
+
+        	</div>
+
+        </div>
+		
+	</div>
+	
+</body>
+
+</html>
