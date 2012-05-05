@@ -1,0 +1,104 @@
+<div class="HDragDrop" id="Div_dragdrop">
+	<input type="hidden" name="DRAGDROP" value=""/>
+
+
+	<div class="HDragDropQ" id="Div_dragdropQ">
+		<b>(1)</b> Bestimme deine fünf <b> wichtigsten Faktoren </b> in einem Ski-Gebiet. <br><br>Die unten angegebenen Ränge 1 – 5 (Rang 1 = das Wichtigste) kannst du mit „Drag & Drop“ über die darunter vorgeschlagenen Felder ziehen. 
+	</div>
+
+
+	<div class="HDragDropA">
+		<div id="baseDragField" class="HDragDropSDiv">
+			<div class="HDragDropS HDragElement" id="pic1">1</div>
+			<div class="HDragDropS HDragElement" id="pic2">2</div>
+			<div class="HDragDropS HDragElement" id="pic3">3</div>
+			<div class="HDragDropS HDragElement" id="pic4">4</div>
+			<div class="HDragDropS HDragElement" id="pic5">5</div>
+		</div>
+
+		<div class="HDragDropDDiv">
+			<div class="HDragDropD" id="pictarget1"  style="background-image:url( img/acal_small/adv_1.png);" >
+				<span class="HDragDropDL">Skiegebietsgröße / Pistenangebot</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget2"  style="background-image:url( img/acal_small/adv_2.png);" >
+				<span class="HDragDropDL">Schneesicherheit</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget3"  style="background-image:url( img/acal_small/adv_3.png);" >
+				<span class="HDragDropDL">Pistensicherheit</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget4"  style="background-image:url( img/acal_small/adv_4.png);" >
+				<span class="HDragDropDL">Freundlichkeit</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget5"  style="background-image:url( img/acal_small/adv_5.png);" >
+				<span class="HDragDropDL">Beförderungskomfort</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget6"  style="background-image:url( img/acal_small/adv_6.png);" >
+				<span class="HDragDropDL">Unterkunft / Hotel</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget7"  style="background-image:url( img/acal_small/adv_7.png);" >
+				<span class="HDragDropDL">Gemütlichkeit</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget8"  style="background-image:url( img/acal_small/adv_8.png);" >
+				<span class="HDragDropDL">Spaß & Unterhaltung</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget9"  style="background-image:url( img/acal_small/adv_9.png);" >
+				<span class="HDragDropDL">Naturerlebnis</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget10"  style="background-image:url( img/acal_small/adv_10.png);" >
+				<span class="HDragDropDL">Apre-Ski</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget11"  style="background-image:url( img/acal_small/adv_11.png);" >
+				<span class="HDragDropDL">Gastronomisches Angebot am Berg</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget12"  style="background-image:url( img/acal_small/adv_12.png);" >
+				<span class="HDragDropDL">Ambiente des Ortes</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget13"  style="background-image:url( img/acal_small/adv_13.png);" >
+				<span class="HDragDropDL">Ruhe / Erholung</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget14"  style="background-image:url( img/acal_small/adv_14.png);" >
+				<span class="HDragDropDL">Kinder-Familienangebot</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget15"  style="background-image:url( img/acal_small/adv_15.png);" >
+				<span class="HDragDropDL">Fun und Snowboardpark</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget16"  style="background-image:url( img/acal_small/adv_16.png);" >
+				<span class="HDragDropDL">Skischule</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget17"  style="background-image:url( img/acal_small/adv_17.png);" >
+				<span class="HDragDropDL">Exklusivität</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget18"  style="background-image:url( img/acal_small/adv_18.png);" >
+				<span class="HDragDropDL">Rent & Service</span>
+			</div>
+
+			<div class="HDragDropD" id="pictarget19"  style="background-image:url( img/acal_small/adv_19.png);" >
+				<span class="HDragDropDL">Authentizität</span>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+<!--
+var DropTargets = new Array("#pictarget1","#pictarget2","#pictarget3","#pictarget4","#pictarget5","#pictarget6","#pictarget7","#pictarget8","#pictarget9","#pictarget10","#pictarget11","#pictarget12","#pictarget13","#pictarget14","#pictarget15","#pictarget16","#pictarget17","#pictarget18","#pictarget19",0);
+
+var DroppedArray = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0);
+//-->
+</script>

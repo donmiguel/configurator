@@ -1,0 +1,858 @@
+/* Base CSS for Heracles 
+ * by Don Miguel, michael.gau@gmail.com
+ *
+ * and don chiringito
+ *     don miguel         IBK Dez. 2011
+ *                      
+ *
+ */
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	width: 900px;
+	margin-left: auto ;
+       margin-right: auto ;
+}
+
+.hbutton {
+	color: #ffffff;
+	font-size: 12px;
+	margin-left: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 5px;
+	width: 139px;
+	height: 28px;
+	text-align: center;
+	background: url(img/button.png) no-repeat -145px 0px;
+	display: block;
+	float: right;
+}
+
+.hbutton:hover {
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	width: 140px;
+	height: 28px;
+	text-align: center;
+	padding-top: 5px;
+	background: url(img/button.png) no-repeat 0px 0px;
+	display: block;
+	float: right;
+}
+
+h2 {
+	font-size: 26px;
+    color: #004dad;	
+}
+
+a {
+	color: #004dad;
+	text-decoration: none;
+}
+
+
+/* ------------------------------------------------- banner stuff */
+.hhead {
+	background-image: url(img/button_on.gif);
+	background-repeat: no-repeat;
+	background-position: -1000px -1000px;
+}
+
+.banner {
+	padding-bottom: 5px;
+}
+
+.banner a img { 
+	border:none
+}
+
+
+.logo {
+	height: 90px;
+	padding-left: 10px;
+	margin-top: 20px;
+	float: left;
+	background-image: url(img/logo.png);
+       background-repeat: no-repeat;
+       width: 100%;
+}
+
+.langdrop {
+	height: 20px;
+}
+
+.langdropQ {
+	line-height: 20px;
+	width: 650px;
+	float: left;
+	text-align: right;
+}
+
+.langdropA {
+	float: right;
+	width: 100px;
+	text-align: right;
+}
+
+/* ------------------------------------------------- Navigation stuff */
+.hnavigation {
+	padding-left: 0px;
+	padding-top: 00px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	height: 20px;
+	line-height: 20px;
+	/*border: 1px solid #A8A8A8;*/
+}
+
+.hbotnavigation {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 0px;
+	text-align: right;
+	clear: both;
+}
+
+.hbotnavigationintro {
+	margin: 0px;
+	text-align: right;
+	clear: both;
+}
+
+.hnavibt {
+	padding-right: 5px;
+	text-decoration: none;
+	color: #c40000;
+	font-weight: bold;
+}
+
+.hnavibtnact {
+	padding-right: 5px;
+	text-decoration: none;
+	color: #004dad;
+	font-weight: bold;
+}
+
+.hnavibtnact:hover {
+	padding-right: 5px;
+	text-decoration: none;
+	color: #c40000;
+}
+
+.hnavibtdis {
+	padding-right: 5px;
+	text-decoration: none;
+	color: #A8A8A8;
+}
+
+/* ------- footer -----------------------*/
+.footerpic {
+	clear: both;
+}
+
+.footerpic img {
+	padding-top: 20px;
+
+}
+
+
+.LogicBlock {
+	 border: 1px solid #36609C;
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+	 position: relative;
+	 top: 0px;
+	 left: 0px;
+	 margin-bottom: 10px;
+	 margin-top: 10px;
+}
+
+
+/* ------- winter time content ----------*/
+.ligthbluecont {
+    /*padding: 20px;*/
+    /*border: 1px solid #004dad;*/
+	width: 750px;
+	float: left;
+	margin-bottom: 40px;
+}
+
+.dividerpic {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.rigthBlock {
+	float: left;
+	width: 210px; /* max size 230px */
+	padding-left: 10px;
+	border-left: 1px solid #004dad
+}
+
+/*------------ intro page ---------------*/
+.intropic {
+	float: right;
+	padding-top: 40px;
+	padding-right: 20px;
+}
+
+.introtext {
+	padding-top: 40px;
+	padding-left: 20px;
+	width: 410px;
+	/*min-height: 224px;*/
+	padding-right: 20px;
+}
+
+.wintext,wintext {
+	position: absolute;
+	top: 240px;
+	left: 20px;
+	width: 880px;
+	text-align: right;
+	padding-right: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.configintro {
+	font-size: 13px;
+	width: 550px;
+}
+
+/* --------------------------------------------- content stuff  mqc specific */
+.hinteractioncontent {
+	color: #000000;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.HTaskJob {
+	font-weight: bold;
+	color: #6C9D31;
+	padding: 5px;
+}
+
+.htaskerror {
+	font-weight: bold;
+	color: #c40000;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.HSHtml {
+	color: #000000;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+.sliderSHtml {
+    /*empty*/
+}
+
+.mquestionE, .HRadioListE,.hradiolistlongE,.HTextInputE,.HDropDownE,.HBoxListE,.HTextFieldE,.HDragDropE, .HMultiDropE
+{
+	border: 2px solid #c40000;
+	overflow:hidden;
+	padding: 5px;
+}
+
+.HMultiDropEText {
+	font-weight: bold;
+	padding-bottom: 10px;
+	color: #c40000;
+}
+
+.hhover {
+  background: #e6eef8;
+}
+
+.hdropdown {
+	margin-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	clear: both;
+}
+
+.HDropDownQ {
+	margin-top: 20px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+
+.HDropDownA {
+	margin-left: 0px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.HDropDownA select {
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 300px;
+}
+
+/*  multi drop css */
+.hmultidrop {
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.HMultiDropQ {
+    padding-bottom: 10px;
+    color: #000000;
+    /*background-color: #666666;*/
+}
+
+.HMultiDropItemQ {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #000000;
+    /*background-color: #666666;*/
+}
+
+.HMultiDropItemA {
+    padding-bottom: 5px;
+    color: #000000;
+    /*background-color: #666666;*/
+}
+
+
+.HMultiDropA {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.HMultiDropA select {
+    width: 300px;
+}
+
+
+.HRadioList {
+	margin-top: 10px;
+	clear: both;
+}
+
+.HRadioListQ {
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	color: #000000;
+	/*font-weight: bold;*/
+	/*background-color: #013b82;*/
+}
+
+.HRadioListA {
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+
+.HRadioListA table {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+table td.HRadioListAB {
+	text-align: right;
+}
+
+table td.HRadioListAL {
+    padding-right: 5px;
+}
+
+table td.HRadioListALL {
+    padding-right: 5px;
+    width: 120px;
+    text-align: right;
+}
+
+table td.HRadioListARL {
+    padding-left: 5px;
+    width: 120px;
+    text-align: left;
+}
+
+.hradiolistlong,.hradiolistlong {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 10px;
+	clear: both;
+}
+
+.hradiolistlongQ {
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+.hradiolistlongA {
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+.hradiolistlongA table {
+	width: 100%;
+}
+
+.hradiolistlongA table td {
+	text-align: left;
+}
+
+.hradiolistlongAL { /*width: 10px;*/
+	padding-right: 15px;
+}
+
+.hradiolistlongALL { /*width: 10px;*/
+	padding-right: 15px;
+}
+
+.HBoxList {
+	margin-top: 10px;
+	clear: both;
+}
+
+.HBoxListQ {
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+.HBoxListA {
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+
+.HBoxListA table {
+	width: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.HBoxListA table tbody tr td {
+	padding-left: 0px;
+	padding-right: 10px;
+	text-align: left;
+	width: auto;
+}
+
+.HTextInput {
+	margin-top: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	clear: both;
+	/* border: 1px solid #666666; */
+}
+
+
+.htextfield {
+	margin-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	clear: both;
+
+}
+
+.HTextFieldQ {
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	color: #000000;	
+
+}
+
+.HTextFieldA {
+	margin-left: 20px;
+	margin-bottom: 10px;
+	color: #000000;
+	width: 660px;
+}
+
+.HTableReporterQ {
+    padding-bottom: 10px;
+}
+
+.HTableReporterT {
+    color: #000000;
+    border-bottom: 1px solid #004dad;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.HTableReporterA {
+	font-size: 22px;
+    color: #c40000;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.HTableReporter {
+    border: 0;
+    color: #000000;
+}
+
+.HTableReporter td {
+    border: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.HTableReporterH {
+    border: 0;
+    font-weight: bold;
+}
+
+.HTableReporterC {
+    border: 0;
+    font-weight: bold;
+}
+
+.HTableReporterR {
+	color: #004dad;
+}
+
+.HTableReporterF {
+	color: #004dad;
+	font-weight: bold;
+}
+
+
+/* ----------- multiple question stuff ------------*/
+.mintro {
+	color: #000000;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-right: 20px;
+
+	padding-bottom: 10px;
+	padding-left: 20px;
+	clear: both;
+	/*font-weight: bold;*/
+}
+
+.MIntroFrame {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 10px;
+	clear: both;
+	border: 1px solid #000000;
+}
+
+.mquestion {
+	clear: both;
+	color: #000000;
+	overflow:hidden;
+	margin-top: 2px;
+}
+
+.mquestionQ {
+	float: left;
+	display: block;
+	margin-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	width: 600px;
+	font-weight: bold;
+	font-style:italic;
+
+}
+
+.mquestionA {
+	float: left;
+	display: block;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.mquestionA table {
+	width: 100%;
+	height: 100%;
+}
+
+table td.mquestionAL {
+	padding-right: 5px;
+	text-align: left;
+}
+
+table td.mquestionAB {
+	text-align: right;
+}
+
+table td.mquestionALL {
+	font-size: 12px;
+	padding-right: 5px;
+	width: 120px;
+	text-align: right;
+}
+
+table td.mquestionARL {
+	white-space: nowrap;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 5px;
+	width: 120px;
+}
+
+table td.mquestionANAB {
+	padding-left: 30px;
+	text-align: right;
+}
+
+table td.mquestionANAL {
+	width: 50px;
+	text-align: left;
+}
+
+.mtextinput {
+	margin-top: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	clear: both;
+}
+
+
+
+.HTextInputQ,.mtextinputQ,.mtextinputQ {
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	color: #000000;
+	/*background-color: #013b82;*/
+}
+
+.HTextInputA, .mtextinputA,.mtextinputA {
+	margin-left: 20px;
+	color: #000000;
+	margin-bottom: 10px;
+	border: 1px solid #A8A8A8;
+	width: 660px;
+}
+
+.HTextInputAFocus, .mtextinputAFocus,.mtextinputAFocus,.mtextinputAFocus {
+	margin-bottom: 10px;
+	margin-left: 20px;
+	color: #000000;
+	border: 1px solid #ff0000;
+	width: 660px;
+}
+
+/* checkbox and radio style for jquery stuff --------------------*/
+.ui-radio-state-disabled,.ui-radio-state-checked-disabled,.ui-radio-state-disabled-hover,.ui-radio-state-checked-disabled-hover
+	{
+	color: #999;
+}
+
+span.ui-checkbox {
+	display: block;
+	float: right;
+	width: 16px;
+	height: 16px;
+	background: url(icon_checkbox_tqc.png) 0 -40px no-repeat;
+}
+
+span.ui-radio {
+	display: block;
+	float: right;
+	width: 16px;
+	height: 16px;
+	background: url(icon_checkbox_tqc.png) 0 -162px no-repeat;
+}
+
+span.ui-helper-hidden {
+	display: none;
+}
+
+label {
+	padding: 2px;
+	font-size: 12px;
+}
+
+span.ui-checkbox-state-hover {
+	background-position: 0 -114px;
+}
+
+span.ui-checkbox-state-checked {
+	background-position: 0 -1px;
+}
+
+span.ui-checkbox-state-checked-hover {
+	background-position: 0 -75px;
+}
+
+span.ui-radio-state-checked-disabled-hover,span.ui-radio-state-checked-disabled,span.ui-radio-state-checked
+	{
+	background-position: -1px -239px;
+}
+
+span.ui-radio-state-hover {
+	background-position: 0 -200px;
+}
+
+span.ui-radio-state-checked-hover {
+	background-position: -1px -278px;
+}
+
+.ui-helper-hidden-accessible {
+	position: absolute;
+	left: -999em;
+}
+
+/* ------------------ impressum - datenschutz -----------*/
+.datenschutzbutton {
+	color: #000000;
+}
+
+.datawin,.datasafe {
+	position: absolute;
+	top: 160px;
+	left: 60px;
+	width: 600px;
+	background-color: #e6eef8;
+	z-index: 1000;
+	padding-left: 20px;
+	padding: 20px;
+	display: none;
+}
+
+.datasafebutton, .datawinbutton {
+	float: left;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	color: #000000;
+	font-size: 12px;
+	margin-left: 10px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 5px;
+	width: 152px;
+	height: 21px;
+	text-align: center;
+	background-image: url(img/button_off.gif);
+	/*display: block;*/
+	cursor: pointer;
+}
+
+#datenschutz {
+	position: absolute;
+	top: 100px;
+	left: 40px;
+	width: 880px;
+	display: none;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #e6eef8;
+}
+
+
+/********************************* Drag and drop Stuff *******/
+.HDragDrop{
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    color: #000000;
+    clear: both;
+	height: 750px;
+}
+
+.HDragDropQ {
+	color: #000000;
+    /*padding-left: 20px;*/
+    margin-bottom: 5px;
+    line-height: 16px;
+}
+
+.HDragDropA {
+	color: #000000;
+    /*margin-left: 20px;*/
+    margin-bottom: 5px;
+    width: 720px;
+    text-align: left;
+}
+
+.HDragDropS {
+    font-size: 30px;
+    font-weight: bold;
+	margin: 20px;
+	padding: 5px;
+	border: 2px solid #c40000;
+	text-align: center;
+	cursor: move;
+	color: #c40000;
+	float: left;
+	display: inline;
+	width: 84px;
+	height: 42px;
+	/*background-color: #ebf0f5;*/
+}
+
+
+.HDragDropSDiv {
+    clear: both;
+    overflow:hidden;
+    width: 730px;
+}
+
+.HDragDropDL {
+    float: left;
+    color: #ffffff;
+    padding: 5px;
+    background-color: #004dad;
+    width: 129px;
+    opacity: 0.7;
+}
+
+.HDragDropD {
+    /*border: 1px solid #000000;*/
+    /*color: #222832;*/ 
+    width: 139px;
+    height: 120px;
+    padding-left: 0px;
+    padding-top: 0px;
+    text-align: left;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    /* font-weight: bold; */
+}
+
+
+.HDragDropDDiv {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    clear: both;
+    width: 730px;
+}
